@@ -1,0 +1,31 @@
+{
+  "name": "sample_channel",
+  "messages": [
+    {
+      "id": 1,
+      "date": "2026-04-17T08:00:00+00:00",
+      "date_unixtime": "1776412800",
+      "text": "New call\n💊CA： 9xQeWvG816bUx9EPfA8tXXkG4Y4tB5Lz9sJ7Lx8o3kQ\nEntry now"
+    },
+    {
+      "id": 2,
+      "date": "2026-04-17T09:00:00+00:00",
+      "date_unixtime": "1776416400",
+      "text": [
+        "Another call\n",
+        {
+          "type": "text",
+          "text": "CA: 4Nd1mY6JQ4k5uJb9rN3kCz1uQ2r9xYf8hA2nVx4pGmZ"
+        },
+        "\nWatch closely"
+      ]
+    },
+    {
+      "id": 3,
+      "date": "2026-04-17T10:00:00+00:00",
+      "date_unixtime": "1776420000",
+      "text": "No signal here"
+    }
+  ]
+}
+
