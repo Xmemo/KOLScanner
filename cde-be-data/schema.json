@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CDE Generic Drug BE Record",
+  "type": "object",
+  "properties": {
+    "generic_name": {"type": "string"},
+    "dosage_form": {"type": "string"},
+    "strength": {"type": "string"},
+    "manufacturer": {"type": "string"},
+    "acceptance_no": {"type": "string"},
+    "auc_ci_lower": {"type": "number"},
+    "auc_ci_upper": {"type": "number"},
+    "cmax_ci_lower": {"type": "number"},
+    "cmax_ci_upper": {"type": "number"},
+    "clinical_site": {"type": "string"},
+    "bioanalysis_site": {"type": "string"},
+    "statistics_site": {"type": "string"},
+    "source_url": {"type": "string"}
+  },
+  "required": ["generic_name", "manufacturer", "acceptance_no"]
+}
